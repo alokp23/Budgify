@@ -35,7 +35,6 @@ budgify/
 │   └── index.php
 ├── dashboard.php
 ├── database.sql
-├── generate_presentation.py
 ├── index.php
 ├── PROJECT_DOCUMENTATION.md
 ├── README.md
@@ -60,15 +59,4 @@ budgify/
 - **Password:** `Student@123`
 
 *(Or create a new user account from `/auth/register.php`.)*
-
-## Generating the PowerPoint Presentation
-
-Install `python-pptx` and run the included generator script:
-
-```bash
-pip install python-pptx
-python generate_presentation.py
-```
-
-This creates `Budgify_Presentation.pptx` in the project root folder.
 
